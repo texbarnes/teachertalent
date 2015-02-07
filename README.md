@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 # Teachertalent-ember
+For Startup Weekend ATX
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
@@ -51,8 +51,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
-=======
-# teachertalent
-For Startup Weekend ATX
->>>>>>> 358aa8c7b32347a57289cc03d676bc8e48fc8389
