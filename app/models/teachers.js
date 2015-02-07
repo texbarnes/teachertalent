@@ -1,8 +1,6 @@
 import DS from 'ember-data';
 
 
-
-
 var TeacherModel = DS.Model.extend({
   'firstName': DS.attr('string'),
   'lastName': DS.attr('string'),
@@ -22,6 +20,12 @@ TeacherModel.reopenClass({
 			firstName: 'Mrs.', 
 			lastName: 'Frizzle', 
 			email: 'mrs.frizzle@magicschoolbus.com' 
+		},
+		{ 
+			id: 3, 
+			firstName: 'Mr. Fred', 
+			lastName: 'Rogers', 
+			email: 'mr.rogers@neighborhood.com' 
 		}
 	]
 });
