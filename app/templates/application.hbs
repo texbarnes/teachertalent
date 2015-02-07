@@ -1,5 +1,7 @@
-<h2 id="title">Welcome to TeacherTalent</h2>
+<nav>
+	{{#link-to 'index'}}Home{{/link-to}}
+	<li>{{#link-to 'teachers'}}Teachers{{/link-to}}</li>
+	{{!-- <li>{{#link-to 'school'}}School{{/link-to}}</li> --}}
+</nav>
 
-{{#link-to 'teachers'}}Teachers{{/link-to}}
-<p>this is a test</p>
 {{outlet}}
