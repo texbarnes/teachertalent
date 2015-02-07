@@ -1,23 +1,12 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
+@import 'bitters/variables.scss';
+@import 'bitters/base.scss';
+@import 'bitters/buttons.scss';
+@import 'bitters/forms.scss';
+@import 'bitters/lists.scss';
+@import 'bitters/tables.scss';
+@import 'bitters/typography.scss';
 
-html, body {
-	margin: 0px;
-}
 
-nav {
-	@include outer-container();
-	background-color: #C6CEE0;
-	height: 50px;
-}
 
-nav {
-	li {
-		@include span-columns(3);
-		line-height: 35px;
-		margin-left: 15px;
-	}
-	a {
-		vertical-align: -webkit-baseline-middle;
-	}
-}
