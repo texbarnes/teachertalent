@@ -1,0 +1,9 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+h2 {
+	@include outer-container(100%);
+	color: red;
+	border-bottom: 1px solid red;
+}
+
